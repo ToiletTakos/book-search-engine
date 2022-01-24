@@ -27,13 +27,13 @@ const typeDefs = gql`
     }
 
     input savedBook {
+        bookId: String!
+        title: String!
+        authors: [String]
         description: String
-        title: String
-        bookId: String
         image: String
         link: String
-        authors: [String]
-      }
+    }
 
     type Query {
         me: User
