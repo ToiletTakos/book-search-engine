@@ -7,9 +7,14 @@ It's already set up to allow users to save book searches to the back end.
 ## steps
 
 * cloned and organized starter code
+* installed apollo and graphql on server side
 * Updated Utils/Auth to handle graphQl
 * Updated server/server.js to connect to Apollo server as well as GraphQl
 * Created the typeDefs file for all the query and mutations
+* created resolvers file and used the typeDefs to define the proper resolvers needed
+* installed apollo and graphql on client side
+
+
 
 
 ## Screenshots
